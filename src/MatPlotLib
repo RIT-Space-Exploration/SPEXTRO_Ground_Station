@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = [0,1,2,3,4,5]
+y = [0,1,2,3,4,5]
+
+obj = plt.Line2D([0,1,2], [0,1,2])
+
+obj.set_data(obj.get_xdata()+[1], obj.get_ydata()+[1])
+
+plt.figure()
+plt.plot(obj.get_xydata())
+plt.show()
