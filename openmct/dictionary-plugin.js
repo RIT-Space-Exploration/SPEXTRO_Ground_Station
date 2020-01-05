@@ -22,7 +22,7 @@ var objectProvider = {
                 return {
                     identifier: identifier,
                     name: measurement.name,
-                    type: 'example.telemetry',
+                    type: 'spextro.telemetry',
                     telemetry: {
                         values: measurement.values
                     },
@@ -62,9 +62,9 @@ var DictionaryPlugin = function (openmct) {
 
         openmct.composition.addProvider(compositionProvider);
 
-        openmct.types.addType('example.telemetry', {
-            name: 'Example Telemetry Point',
-            description: 'Example telemetry point from our happy tutorial.',
+        openmct.types.addType('spextro.telemetry', {
+            name: 'SPEXTRO Telemetry Point',
+            description: 'Telemetry point from the SPEXTRO payload.',
             cssClass: 'icon-telemetry'
         });
     };
