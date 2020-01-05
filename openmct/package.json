@@ -1,0 +1,18 @@
+{
+  "name": "spextro-ground-station",
+  "version": "0.0.1",
+  "description": "Ground Station for the SPEXTRO payload",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIT-Space-Exploration/SPEXTRO_Ground_Station"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RIT-Space-Exploration/SPEXTRO_Ground_Station/issues"
+  },
+  "dependencies": {
+    "openmct": "https://github.com/nasa/openmct.git",
+    "ws": "^6.1.2"
+  }
+}

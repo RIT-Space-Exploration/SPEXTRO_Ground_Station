@@ -1,0 +1,32 @@
+{
+    "name": "SPEXTRO",
+    "key": "spextro",
+    "measurements": [
+        {
+            "name": "Altitude",
+            "key": "payload.altitude",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "meters",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+            ]
+        }
+    ]
+}
