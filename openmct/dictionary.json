@@ -25,6 +25,126 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Temperature",
+            "key": "payload.temperature",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "C",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Pressure",
+            "key": "payload.pressure",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "Pascal",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration_x_axis",
+            "key": "payload.acceleration_x_axis",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "m/s",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration_y_axis",
+            "key": "payload.acceleration_y_axis",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "m/s",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration_z_axis",
+            "key": "payload.acceleration_z_axis",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "m/s",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
         }
     ]
 }
