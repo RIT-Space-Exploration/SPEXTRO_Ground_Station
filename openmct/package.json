@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/RIT-Space-Exploration/SPEXTRO_Ground_Station"
   },
-  "author": "",
+  "author": "RIT Space Exploration",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RIT-Space-Exploration/SPEXTRO_Ground_Station/issues"
